@@ -6,16 +6,18 @@ Infusionsoft iSDK service provider for silex micro-framework
 Example
 =======
 
-    <?php
-    use Silex\Application;
+``` php
+<?php
+use Silex\Application;
 
-    $key = 'secretkey';
-    $appName = 'appname';
+$key = 'secretkey';
+$appName = 'appname';
 
-    $app = new Application();
-    $app->register(new IsdkServiceProvider(), array(
-        'isdk.key' => $key,
-        'isdk.appName' => $appName
-    ));
+$app = new Application();
+$app->register(new IsdkServiceProvider(), array(
+    'isdk.key' => $key,
+    'isdk.appName' => $appName
+));
 
-    $paymentOptions = $app['isdk']->getAllPaymentOptions();
+$paymentOptions = $app['isdk']->getAllPaymentOptions();
+```
