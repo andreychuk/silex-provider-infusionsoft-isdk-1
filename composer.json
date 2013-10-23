@@ -1,0 +1,22 @@
+{
+    "name": "wildsurfer/silex-provider-infusionsoft-isdk",
+    "version": "0.0.1",
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/infusionsoft/PHP-iSDK.git"
+    }
+    ],
+    "require":{
+        "infusionsoft/PHP-iSDK": "dev-master",
+        "silex/silex": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.5"
+    },
+    "autoload":{
+        "psr-0":{
+            "Wildsurfer\\Provider\\":"src"
+        }
+    }
+}
