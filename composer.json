@@ -1,6 +1,14 @@
 {
     "name": "wildsurfer/silex-provider-infusionsoft-isdk",
-    "version": "0.0.1",
+    "keywords": ["infusionsoft","isdk","silex"],
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Ivan Kuznetsov",
+        "email": "kuzma.wm@gmail.com",
+        "role": "Developer"
+    }
+    ],
     "repositories": [
     {
         "type": "vcs",
