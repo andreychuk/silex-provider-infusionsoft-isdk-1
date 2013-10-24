@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "ec62469255ae823f0f38fae6f1a8f9cb",
+    "hash": "5f20d0c2bc0b025e5ea765dc1b024649",
     "packages": [
         {
-            "name": "infusionsoft/PHP-iSDK",
+            "name": "infusionsoft/php-isdk",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/infusionsoft/PHP-iSDK.git",
-                "reference": "290c4d6d7dfd122bac7001817e2218033b74e9f8"
+                "url": "https://github.com/wildsurfer/php-isdk.git",
+                "reference": "becc7cd955ae1e65b780a6ad27f2a4816f1c8865"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infusionsoft/PHP-iSDK/zipball/290c4d6d7dfd122bac7001817e2218033b74e9f8",
-                "reference": "290c4d6d7dfd122bac7001817e2218033b74e9f8",
+                "url": "https://api.github.com/repos/wildsurfer/php-isdk/zipball/becc7cd955ae1e65b780a6ad27f2a4816f1c8865",
+                "reference": "becc7cd955ae1e65b780a6ad27f2a4816f1c8865",
                 "shasum": ""
             },
             "require": {
@@ -28,11 +28,8 @@
                     "src/isdk.php"
                 ]
             },
-            "support": {
-                "source": "https://github.com/infusionsoft/PHP-iSDK/tree/master",
-                "issues": "https://github.com/infusionsoft/PHP-iSDK/issues"
-            },
-            "time": "2013-07-23 22:37:52"
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2013-10-24 20:39:20"
         },
         {
             "name": "pimple/pimple",

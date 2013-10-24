@@ -9,14 +9,8 @@
         "role": "Developer"
     }
     ],
-    "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/infusionsoft/PHP-iSDK.git"
-    }
-    ],
     "require":{
-        "infusionsoft/PHP-iSDK": "dev-master",
+        "infusionsoft/php-isdk": "dev-master",
         "silex/silex": "~1.0"
     },
     "require-dev": {
