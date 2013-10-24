@@ -21,3 +21,14 @@ $app->register(new IsdkServiceProvider(), array(
 
 $paymentOptions = $app['isdk']->getAllPaymentOptions();
 ```
+
+Install with Composer
+=====================
+
+``` js
+  {
+      require: {
+          "wildsurfer/silex-provider-infusionsoft-isdk": "dev-master"
+      }
+  }
+```
